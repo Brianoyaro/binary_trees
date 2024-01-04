@@ -46,6 +46,7 @@ binary_tree_t *binary_tree_uncle(binary_tree_t *node);
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));
 int binary_tree_is_bst(const binary_tree_t *tree);
 bst_t *bst_insert(bst_t **tree, int value);
+bst_t *bst_search(const bst_t *tree, int value);
 
 
 int max_(const binary_tree_t *tree);
